@@ -16,18 +16,16 @@
 
 /* Main content */
 
-.container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
+/* Home section */
+
+.bg-home{
+	background: url('computer.jpg');
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height:100%;
 }
-
-/* Section 1 */
-
-.bg-1 { 
-    background-color: #1abc9c; /* Green */
-    color: #ffffff;
-}
-
 /* Section 2 */
 
 .bg-2 { 
