@@ -7,6 +7,7 @@
  	<meta name="viewport" content="width=device-width, initial-scale=1">
  	<script src="./includes/jquery-3.1.1.min.js"></script>
 	<script src="./includes/bootstrap/js/bootstrap.min.js"></script>
+	<script src="./includes/main.js"></script>
 	<link rel="stylesheet" type="text/css" href="./includes/style.css">
 	<link rel="stylesheet" type="text/css" href="./includes/bootstrap/css/bootstrap.min.css">
 </head>
@@ -27,10 +28,10 @@
 		</div>
 		<div class="collapese navbar-collapese" id="myNavbar">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="./index.html">Home</a></li>
-				<li><a href="./about.html">About</a></li>
-				<li><a href="./portfolio.html">Portfolio</a></li>
-				<li><a href="./contact.html">Contact</a></li>
+				<li><a href="#homecontent">Home</a></li>
+				<li><a href="#aboutcontent">About</a></li>
+				<li><a href="#portfoliocontent">Portfolio</a></li>
+				<li><a href="#contactcontent">Contact</a></li>
 			</ul>
 		</div>
 	</div>
@@ -41,8 +42,8 @@
 
 	<div class="container-fluid bg-home">
 		<div class="row text-center">
-			<div class ="col-sm-12">
-				<div class="homecontent">
+			<div class ="col-md-12">
+				<div id="homecontent">
 					<h1>Hello, welcome to my portfolio website!</h1>
 					<hr>
 					<img src="profilepicture2.jpg" class="img-circle" alt="Daniel">
@@ -55,53 +56,114 @@
 	<!--Section Nr.2 About-->
 
 	<div class="container-fluid bg-about">
-  		<h3>About Me</h3>
-  		<p>
-	  		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	  		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	  		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	  		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	  		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	  		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  		</p>
-  		<a href="#" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-search"></span>Click Me</a>
+		<div class="row">
+			<div class="col-md-6">
+				<div id="aboutcontent">
+				<h5>Bio</h5>
+			  		<p>
+			  			As so many little kids I was fascinated by flying and back in those days I didn't want to become anything more then a pilot. I was imagining myself soring through the skies, but at one point it suddenly hit me...
+			  		</p>	
+			  		<p>
+			  			What if I could invent these amazing things that enabled us how to fly. This thought turned my world upside down, my new heroes suddenly became inventors and scientists in the likes of Leonardo da Vinci, Einstein and Edison. Just like them I wanted to change the world and invent things that could better the lives of everyone on this planet.
+			  		</p>
+			  		<p>
+			  			Now many years later I still have this passion for technology, there is no moment that passes when I am not fascinated by the speed that everything around me is changing. I am still the little kid, although a little taller by now...
+			  		</p>  
+			  	</div>
+			</div>
+
+			<div class="col-md-6">
+				<div id="quotes">
+				<h5>My Favorite Quotes</h5>
+					<ul>
+						<li>The important thing is not to stop questioning. Curiousity has it's own reason for excisting. - Albert Einstein</li>
+						<li>It does not matter how slow you go as long as you do not stop - Confucius</li>
+						<li>I have not failed. I have just found 10.000 ways that won't work - Thomas Edison</li>
+						<li>The journey of a thousand miles begins with one step - Lao Tzu</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
 	</div>
 
 	<!--Section Nr.3 Portoflio-->
-<!-- 
-	<div class="container-fluid bg-3 text-center"> 
-  		
-  		<h3>Where To Find Me?</h3>
+
+	<div class="container-fluid bg-portfolio"> 		
+  		<h3>Portfolio</h3>
   		<div class="row">
-    		<div class="col-sm-4">
-      			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      			quis nostrud exercitation </p>
-      			<img src="wolf1.jpg"  class="img-responsive" style="width:100%" alt="Image">
-   			 </div>
-   		 	<div class="col-sm-4">
-      			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      			quis nostrud exercitation ullamco </p>
-      			<img src="wolf2.jpg"  class="img-responsive" style="width:100%" alt="Image">
-    		</div>
-    		<div class="col-sm-4"> 
-      			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      			quis nostrud exercitation ullamco</p>
-      			<img src="wolf3.jpg"  class="img-responsive" style="width:100%" alt="Image">
-    		</div>
+  			<div id="portfoliocontent">
+  			<!-- Portfolio item 1-->
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                </a>
+            </div>
+            <!-- Portfolio item 2-->
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                </a>
+            </div>
+            <!-- Portfolio item 3-->
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                </a>
+            </div>
+            </div>
   		</div>
 	</div>
- -->
-	<!--Footer-->
-	<!--Credits-->
 
+	<!--Section Nr.4 Contact Page-->
+	<div class="container-fluid bg-contact">
+		<div class="row">
+			<div id="contactcontent">
+			<div class="inner contact">
+		                <!-- Form Area -->
+		                <div class="contact-form">
+		                    <!-- Form -->
+		                    <form id="contact-us" method="post" action="#">
+		                        <!-- Left Inputs -->
+		                        <div class="col-xs-6 wow animated slideInLeft" data-wow-delay=".5s">
+		                            <!-- Name -->
+		                            <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
+		                            <!-- Email -->
+		                            <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
+		                            <!-- Subject -->
+		                            <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
+		                        </div><!-- End Left Inputs -->
+		                        <!-- Right Inputs -->
+		                        <div class="col-xs-6 wow animated slideInRight" data-wow-delay=".5s">
+		                            <!-- Message -->
+		                            <textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
+		                        </div><!-- End Right Inputs -->
+		                        <!-- Bottom Submit -->
+		                        <div class="relative fullwidth col-xs-12">
+		                            <!-- Send Button -->
+		                            <button type="submit" id="submit" name="submit" class="form-btn semibold">Send Message</button> 
+		                        </div><!-- End Bottom Submit -->
+		                        <!-- Clear -->
+		                        <div class="clear"></div>
+		                    </form>
+
+		                    <!-- Your Mail Message -->
+		                    <div class="mail-message-area">
+		                        <!-- Message -->
+		                        <div class="alert gray-bg mail-message not-visible-message">
+		                            <strong>Thank You !</strong> Your email has been delivered.
+		                        </div>
+		                    </div>
+
+		                </div><!-- End Contact Form Area -->
+		            </div><!-- End Inner -->
+		            </div>	
+            	</div>
+            </div>	
+	<!--Footer-->
 	<footer class="container-fluid footer text-center">
   		<p>©2016 Daniel van der Woude | find me on: <a href="">Linkedin</a> <a href="">Github</a></p> 
 	</footer>
-		<script src="./includes/main.js"></script>
-
 </body>
 
 </html>
