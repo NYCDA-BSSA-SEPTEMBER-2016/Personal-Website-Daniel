@@ -9,17 +9,17 @@
 	<script src="./includes/bootstrap/js/bootstrap.min.js"></script>
 	<script src="./includes/animatescroll.min.js"></script>
 	<script src="./includes/main.js"></script>
-	<link rel="stylesheet" type="text/css" href="./includes/style.css">
 	<link rel="stylesheet" type="text/css" href="./includes/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="./includes/style.css">
+
 </head>
 
 <body>
-<!--Header -->
 
-<!--Navigational Bar -->
+	<!--Navigational Bar -->
 	<nav class="navbar navbar-default">
 		<div class="container">
-			<div class="navbar-header">
+		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapese" data-target="#myNavbar">
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
@@ -37,18 +37,15 @@
 		</div>
 		</div>
 	</nav>
-	<!--Body Section-->
 
 	<!--Section Nr.1 home-->
 
 	<div class="container-fluid bg-home">
-		<div class="row text-center">
+		<div class="row text-center" id="homecontent">
 			<div class ="col-md-12">
-				<div id="homecontent">
 					<h1>Hello, welcome to my portfolio website!</h1>
 					<hr>
-					<img src="profilepicture2.jpg" class="img-circle" alt="Daniel">
-				</div>	
+					<img src="profilepicture.jpg" class="img-circle" alt="Daniel">
 			</div>
 		</div>
 	</div>
@@ -57,9 +54,9 @@
 	<!--Section Nr.2 About-->
 
 	<div class="container-fluid bg-about">
-		<div class="row">
+		<h3>About Me</h3>
+		<div class="row" id="aboutcontent">
 			<div class="col-md-6">
-				<div id="aboutcontent">
 				<h5>Bio</h5>
 			  		<p>
 			  			As so many little kids I was fascinated by flying and back in those days I didn't want to become anything more then a pilot. I was imagining myself soring through the skies, but at one point it suddenly hit me...
@@ -70,11 +67,9 @@
 			  		<p>
 			  			Now many years later I still have this passion for technology, there is no moment that passes when I am not fascinated by the speed that everything around me is changing. I am still the little kid, although a little taller by now...
 			  		</p>  
-			  	</div>
 			</div>
 
 			<div class="col-md-6">
-				<div id="quotes">
 				<h5>My Favorite Quotes</h5>
 					<ul>
 						<li>The important thing is not to stop questioning. Curiousity has it's own reason for excisting. - Albert Einstein</li>
@@ -82,10 +77,10 @@
 						<li>I have not failed. I have just found 10.000 ways that won't work - Thomas Edison</li>
 						<li>The journey of a thousand miles begins with one step - Lao Tzu</li>
 					</ul>
-				</div>
 			</div>
 
 		</div>
+
 	</div>
 
 	<!--Section Nr.3 Portoflio-->
@@ -162,8 +157,8 @@
             	</div>
             </div>	
 	<!--Footer-->
-	<footer class="container-fluid footer text-center">
-  		<p>©2016 created by: Daniel van der Woude 
+	<footer class="container-fluid footer text-left">
+  		<p>©2016 created by: Daniel van der Woude</p> 
 	</footer>
 </body>
 </html>

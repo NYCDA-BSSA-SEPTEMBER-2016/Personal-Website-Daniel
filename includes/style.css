@@ -4,14 +4,18 @@ img {
 	max-width:100%;
 }
 
+.container-fluid {
+	padding:0px 50px 0px 50px;
+}
+
 /* Navigation bar */
 
 .navbar {
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 0px;
     border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
+    border-radius: 0px;
+    margin-bottom: 0px;
     font-size: 12px;
     letter-spacing: 5px;
 }
@@ -28,7 +32,7 @@ img {
 	background-image: url('../geometry.jpg');
 	width:100%;
 	height: 100%;
-	padding: 30px 0px 30px 0px;  
+	padding-bottom:30px;
 }
 
 #homecontent img {
@@ -50,37 +54,24 @@ img {
 .bg-about { 
     background-color: #2f2f2f; 
     color: #ffffff;
-    padding:30px 0px 30px 0px;
+    padding-bottom:30px;
 }
-
-#aboutcontent {
-	padding:0px 25px 0px 25px;
-}
-
 /* Text decoration of About Section*/
 
 #aboutcontent h5 {
 	text-decoration: underline;
 }
 
-#quotes h5 {
-	text-decoration: underline;
-}
-
-
 /* Porfolio section 3 */
 
 .bg-portfolio { 
     background-color: #ffffff; 
     color: #555555;
+    padding-bottom:30px;
 }
 
 
 /* Contact Area */
-
-#portfoliocontent {
-	padding:0px 50px 0px 50px;
-}
 
 /* Contact Form */ 
 
@@ -216,5 +207,9 @@ input {
 .footer { 
     background-color: #2f2f2f;
     color: #ffffff;
-    padding: 15px 0px 15px 0px;
+    padding-top:10px;
+}
+
+#footer {
+	padding: 0px 30px 10px 30px;
 }
