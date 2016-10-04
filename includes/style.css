@@ -65,13 +65,36 @@ img {
 /* Porfolio section 3 */
 
 .bg-portfolio { 
-    background-color: #ffffff; 
+    /*background-color: #ffffff; */
     color: #555555;
     padding-bottom:30px;
+    background-image: url('../geolines.png');
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#portfoliotext {
+	background-color: #ffffff;
+	border:1px solid;
+	padding:5px 5px 5px 5px;
+}
+
+#portfoliotext div {
+	display:flex;
+}
+
+#portfoliotext div img{
+	margin-left:5px;
 }
 
 
 /* Contact Area */
+
+/*.bg-contact {
+	background-image: url('../geolines.png');
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}*/
 
 /* Contact Form */ 
 
@@ -211,5 +234,5 @@ input {
 }
 
 #footer {
-	padding: 0px 30px 10px 30px;
+	padding: 10px 30px 10px 30px;
 }

@@ -17,3 +17,4 @@ $(document).ready(
 			$('#contactcontent').animatescroll({scrollSpeed:2000});
 		})
 	} );
+
