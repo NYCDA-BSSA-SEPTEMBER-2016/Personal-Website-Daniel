@@ -1,4 +1,7 @@
 console.log("hello fellow developer!")
 
-$('h1').fadeOut(1000)
-$('h1').fadeIn(1000)
+
+$(document).ready(
+	function(){
+		$(".homecontent img").hide().fadeIn(5500)
+	} );
