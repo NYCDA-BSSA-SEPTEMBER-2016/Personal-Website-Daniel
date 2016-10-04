@@ -50,7 +50,7 @@ img {
 .bg-about { 
     background-color: #2f2f2f; 
     color: #ffffff;
-    padding:30px 50px 30px 50px;
+    padding:30px 0px 30px 0px;
 }
 
 #aboutcontent {
@@ -76,11 +76,10 @@ img {
 }
 
 
-/* Footer */
+/* Contact Area */
 
-.footer { 
-    background-color: #2f2f2f;
-    color: #ffffff;
+#portfoliocontent {
+	padding:0px 50px 0px 50px;
 }
 
 /* Contact Form */ 
@@ -210,4 +209,12 @@ center{
 input {
     position: relative;
     z-index: 9999;
+}
+
+/* Footer */
+
+.footer { 
+    background-color: #2f2f2f;
+    color: #ffffff;
+    padding: 15px 0px 15px 0px;
 }
