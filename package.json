@@ -1,0 +1,30 @@
+{
+  "name": "personal-website-daniel",
+  "version": "0.0.1",
+  "description": "The personal website of Daniel",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NYCDA-BSSA-SEPTEMBER-2016/Personal-Website-Daniel.git"
+  },
+  "keywords": [
+    "personal",
+    "website",
+    "daniel",
+    "van",
+    "der",
+    "woude"
+  ],
+  "author": "Daniel van der Woude",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NYCDA-BSSA-SEPTEMBER-2016/Personal-Website-Daniel/issues"
+  },
+  "homepage": "https://github.com/NYCDA-BSSA-SEPTEMBER-2016/Personal-Website-Daniel#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
